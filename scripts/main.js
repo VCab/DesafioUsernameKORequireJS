@@ -4,8 +4,10 @@ var Modes = {
 }
 
 define(["knockout", "models/user"], function (ko, User) {
+    //var ret={};
     function ViewModel() {
 
+    //ret.ViewModel = function(){
         var self = this;
         self.newUser = ko.observable(new User());
         self.users = ko.observableArray([]);
@@ -99,10 +101,10 @@ define(["knockout", "models/user"], function (ko, User) {
     return ViewModel;
 });
 
-/*
+
 define(["jquery", "knockout"], function ($, ko) {
     $(document).ready(function () {
         window.model = new ViewModel();
         ko.applyBindings(model);
     });
-});*/
+});
