@@ -1,0 +1,28 @@
+{
+  "name": "desafiousernameko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VCab/DesafioUsernameKO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VCab/DesafioUsernameKO/issues"
+  },
+  "homepage": "https://github.com/VCab/DesafioUsernameKO#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "knockout": "^3.5.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
+  }
+}

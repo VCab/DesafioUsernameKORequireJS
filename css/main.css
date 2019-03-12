@@ -1,0 +1,15 @@
+.btn-danger{
+    float: right;
+}
+
+.filter{
+    float: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid gray;
+}
